@@ -83,6 +83,11 @@ margin-bottom: 0px;
     font-family: Open Sans; 
 }
 /*main section styles*/
+main{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
 /* section*/
 .about{
     padding:150px;
@@ -103,4 +108,11 @@ margin-bottom: 0px;
     text-align: center;
     font-family: Open Sans;
     font-size: 12px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
