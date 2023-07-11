@@ -1,6 +1,6 @@
 /* Common shard style */
 body{
-        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Open Sans', sans-serif;*/
     }
     .text-primary{
         color: #FD6E0A;
@@ -25,7 +25,7 @@ body{
 nav {
         display: flex;
         justify-content: space-between;
-        
+        margin: 0px 200px 0px 200px;
         
     }
 nav > ul{
@@ -38,9 +38,22 @@ nav li{
     margin-right: 50px;
     font-size: 14px;
 }
-
 nav a{
     text-decoration: none;
     color: #474747;
+
+}
+/* header related style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
+    
 
 }
