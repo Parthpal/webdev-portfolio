@@ -21,6 +21,7 @@ body{
         font-size: 45px;
         font-weight: 800;
         line-height: normal;
+        font-family: Open Sans; 
     }
 nav {
         display: flex;
@@ -46,14 +47,60 @@ nav a{
 /* header related style */
 .header{
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
-    width: 584px;
-    
+    width: 500px;
 
+}
+.banner .greeting-header{
+font-size: 45px;
+font-weight: 600; 
+font-family: Open Sans; 
+color: #474747;
+margin-bottom: 0px;
+}
+.banner .greeting-header-name{
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700; 
+    font-family: Open Sans; 
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.bannner-decription{
+    font-family: Open Sans; 
+}
+/*main section styles*/
+/* section*/
+.about{
+    padding:150px;
+    margin:130px 0px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+
+}
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
 }
